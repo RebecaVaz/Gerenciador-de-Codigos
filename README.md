@@ -131,6 +131,7 @@ Projeto desenvolvido em Abril de 2026
 📄 Licença
 
 Este projeto está sob a licença MIT.
+
 ---
 
 # 🇺🇸 English
