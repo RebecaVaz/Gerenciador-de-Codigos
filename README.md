@@ -48,6 +48,7 @@ Com esse processo, a aplicação oferece as seguintes funcionalidades:
 
 Interface gráfica desenvolvida com Tkinter, projetada para facilitar a utilização e o processamento dos catálogos.
 
+Tela Inicial
 <img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9caab9d9-5c9e-4947-8047-fb03bbbdfdd3" />
 
 
@@ -55,19 +56,20 @@ Interface gráfica desenvolvida com Tkinter, projetada para facilitar a utiliza�
 
 Desenvolvimento da lógica de extração, processamento, identificação de duplicidades e gerenciamento das informações utilizando Python.
 
-![Código-fonte do projeto](imagens/codigo-fonte.png)
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/f8f8dabc-96ee-4187-82ab-dada373130bd" />
 
 ### Gerenciamento e backup
 
-Funcionalidade responsável por salvar os dados processados e preservar uma cópia da versão anterior do banco de dados SQLite.
+Funcionalidade, que se encontra na parte inferior da interface, responsável por salvar os dados processados e preservar uma cópia da versão anterior do banco de dados SQLite.
 
-![Funcionalidade de backup](imagens/backup.png)
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9a100def-a124-4d6d-9f0c-af8bc79265fe" />
+
 
 ### Identidade visual
 
 Logo utilizada na interface da aplicação.
 
-![Logo do projeto](imagens/logo.png)
+<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/ac232190-f9aa-4741-86ed-d8a878820257" />
 
 ## 🛠️ Tecnologias utilizadas
 
@@ -157,27 +159,29 @@ Through this process, the application provides the following features:
 
 ### Main Interface
 
-A graphical interface developed with Tkinter, designed to simplify catalog processing and user interaction.
+A graphical user interface developed with Tkinter, designed to streamline usability and catalog processing.
 
-![Application main interface](imagens/tela-inicial.png)
+**Main Screen**
 
-### Source Code and Implementation
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9caab9d9-5c9e-4947-8047-fb03bbbdfdd3" />
 
-Python implementation covering data extraction, processing, duplicate detection, and identifier management.
+### Implementation and Source Code
 
-![Project source code](imagens/codigo-fonte.png)
+Development of the application logic for data extraction, processing, duplicate detection, and information management using Python.
+
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/f8f8dabc-96ee-4187-82ab-dada373130bd" />
 
 ### Data Management and Backup
 
-A backup mechanism designed to preserve the previous SQLite database version before updating stored information.
+A feature located at the bottom of the interface, responsible for saving processed data and preserving a backup copy of the previous version of the SQLite database.
 
-![Backup functionality](imagens/backup.png)
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9a100def-a124-4d6d-9f0c-af8bc79265fe" />
 
-### Application Branding
+### Visual Identity
 
-Logo incorporated into the application's graphical interface.
+Logo used in the application's graphical interface.
 
-![Application logo](imagens/logo.png)
+<img width="1280" height="698" alt="image" src="https://github.com/user-attachments/assets/ac232190-f9aa-4741-86ed-d8a878820257" />
 
 ## 🛠️ Technologies and Tools
 
