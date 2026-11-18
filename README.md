@@ -27,9 +27,9 @@ Para solucionar esse problema, desenvolvi uma aplicação capaz de automatizar a
 
 ## ⚙️ Funcionalidades
 
-O sistema funciona a partir da comparação entre versões de um catálogo. O usuário seleciona o arquivo PDF e o arrasta para a aplicação, que realiza automaticamente a leitura e a extração dos códigos. Em seguida, os dados identificados são comparados com as informações da versão anteriormente armazenada no banco de dados SQLite, permitindo acompanhar as alterações entre os catálogos.
+O sistema funciona a partir da comparação entre versões de um catálogo. O usuário seleciona o arquivo PDF e o arrasta para a aplicação, que realiza automaticamente a leitura e a extração dos códigos, em seguida os dados identificados são comparados com as informações da versão anteriormente armazenada no banco de dados SQLite, permitindo acompanhar as alterações entre os catálogos.
 
-Para que essa comparação seja possível, é necessário armazenar os dados de cada atualização. Antes de atualizar os registros, o sistema cria automaticamente uma cópia de segurança do banco de dados anterior, preservando as informações da versão precedente.
+Para que essa comparação seja possível, é necessário armazenar os dados de cada atualização criando uma cópia de segurança do banco de dados anterior, preservando as informações da versão precedente, utilizando o botão de **Backup** logo abaixo na interface do programa!!
 
 Com esse processo, a aplicação oferece as seguintes funcionalidades:
 
@@ -39,7 +39,7 @@ Com esse processo, a aplicação oferece as seguintes funcionalidades:
 - **Identificação de códigos disponíveis:** geração de uma lista de códigos que não estão sendo utilizados no catálogo atual, indicando possibilidades de reutilização.
 - **Comparação entre versões:** análise dos códigos da atualização atual em relação aos dados anteriormente armazenados, identificando quais códigos deixaram de constar no catálogo.
 - **Armazenamento estruturado:** utilização do SQLite para persistência dos dados e consulta às informações de atualizações anteriores.
-- **Backup local automático:** criação de uma cópia de segurança do banco de dados anterior antes da atualização dos registros.
+- **Backup local:** criação de uma cópia de segurança do banco de dados anterior antes da atualização dos registros.
 - **Interface gráfica interativa:** utilização simplificada por meio de uma interface desenvolvida com Tkinter, com suporte a arrastar e soltar arquivos PDF.
 
 ## 🖥️ Demonstração da aplicação
@@ -143,20 +143,20 @@ To address this challenge, I developed an application capable of automating data
 
 ## ⚙️ Features
 
-The system operates by comparing different versions of a product catalog. The user simply selects a PDF file and drags it into the application, which automatically processes the document and extracts the product codes. The extracted data is then compared against the information previously stored in the SQLite database, making it possible to track changes between catalog versions.
+The system operates by comparing different versions of a catalog. The user selects a PDF file and drags it into the application, which automatically processes the document and extracts the product codes. The extracted data is then compared against the information from the previous version stored in the SQLite database, making it possible to track changes between catalog versions.
 
-To enable this comparison, the system maintains a record of the data from each update. Before updating the database records, the application automatically creates a backup of the previous database, preserving the information from the preceding version.
+To make this comparison possible, the data from each update must be stored by creating a backup of the previous database, thereby preserving the information from the preceding version. This can be done using the **Backup** button located directly below in the application interface!!
 
 Through this process, the application provides the following features:
 
-- **Automated Data Extraction:** processes PDF files and identifies product codes using Regular Expressions (Regex).
-- **Duplicate Detection:** identifies duplicate codes within the catalog and counts their occurrences.
-- **Code Sequence Management:** manages codes within the 001–999 range, identifies the highest code currently in use, and automatically suggests an available code.
-- **Available Code Identification:** generates a list of codes not currently assigned in the catalog, highlighting potential opportunities for reuse.
-- **Version Comparison:** compares codes from the current catalog against previously stored data, identifying codes that are no longer present in the latest version.
-- **Structured Data Storage:** uses SQLite for data persistence and retrieval of information from previous catalog updates.
-- **Automatic Local Backup:** creates a backup of the previous database before updating its records.
-- **Interactive Graphical Interface:** provides a user-friendly interface built with Tkinter, featuring drag-and-drop support for PDF files.
+- **Automated Data Extraction:** reads PDF files and identifies codes using Regular Expressions (Regex).
+- **Duplicate Detection:** identifies repeated codes within the catalog and counts their occurrences.
+- **Code Sequence Management:** manages codes within the range of 001 to 999, identifies the highest code currently in use, and automatically suggests an available code.
+- **Available Code Identification:** generates a list of codes that are not currently being used in the catalog, highlighting potential opportunities for reuse.
+- **Version Comparison:** compares codes from the current update against previously stored data, identifying which codes are no longer present in the catalog.
+- **Structured Data Storage:** uses SQLite for data persistence and retrieval of information from previous updates.
+- **Local Backup:** creates a backup copy of the previous database before updating its records.
+- **Interactive Graphical Interface:** provides a simplified user experience through an interface developed with Tkinter, featuring drag-and-drop support for PDF files.
 
 ## 🖥️ Application Showcase
 
