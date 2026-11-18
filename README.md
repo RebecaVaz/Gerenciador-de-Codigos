@@ -122,6 +122,16 @@ Também reforçou a importância de compreender problemas reais e transformar ne
 
 ---
 
+👩‍💻 Autora
+Rebeca Vaz
+Projeto desenvolvido entre Setembro de 2024 e Fevereiro de 2026, como parte da minha evolução prática em Python.
+
+📄 Licença
+
+Este projeto está sob a licença MIT.
+
+---
+
 # 🇺🇸 English
 
 ## 📌 Project Overview
@@ -236,6 +246,11 @@ It also reinforced the importance of translating real-world business requirement
 
 ---
 
-## 📄 License
+👩‍💻 Author
+Rebeca Vaz
 
-This project is distributed under the MIT License.
+Project developed between September 2024 and February 2026 as part of my hands-on learning journey and practical development experience with Python.
+
+📄 License
+
+This project is licensed under the MIT License.
