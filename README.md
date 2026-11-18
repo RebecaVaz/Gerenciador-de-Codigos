@@ -121,16 +121,9 @@ Este projeto proporcionou experiência prática no desenvolvimento de aplicaçõ
 Também reforçou a importância de compreender problemas reais e transformar necessidades operacionais em soluções tecnológicas eficientes.
 
 ---
-## 👩‍💻 Autora
+## 📌 Projeto 
 
-Rebeca Vaz  
-Projeto desenvolvido em Abril de 2026
-
----
-
-📄 Licença
-
-Este projeto está sob a licença MIT.
+Desenvolvido em Abril de 2026
 
 ---
 
@@ -248,14 +241,6 @@ It also reinforced the importance of translating real-world business requirement
 
 ---
 
-## 👩‍💻 Author
+## 📌 Project
 
-Rebeca Vaz
-
-Project developed in April 2026.
-
----
-
-📄 **License**
-
-This project is licensed under the MIT License.
+Developed in April 2026.
