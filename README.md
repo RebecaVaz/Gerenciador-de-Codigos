@@ -124,7 +124,7 @@ Também reforçou a importância de compreender problemas reais e transformar ne
 ## 👩‍💻 Autora
 
 Rebeca Vaz  
-Projeto desenvolvido entre Setembro de 2024 e Fevereiro de 2026, como parte da minha evolução prática em Python.
+Projeto desenvolvido em Abril de 2026
 
 ---
 
@@ -251,7 +251,7 @@ It also reinforced the importance of translating real-world business requirement
 
 Rebeca Vaz
 
-Project developed between September 2024 and February 2026 as part of my hands-on learning journey and practical development experience with Python.
+Project developed in April 2026.
 
 ---
 
