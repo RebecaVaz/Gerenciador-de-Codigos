@@ -64,7 +64,8 @@ Desenvolvimento da lógica de extração, processamento, identificação de dupl
 
 Funcionalidade, que se encontra na parte inferior da interface, responsável por salvar os dados processados e preservar uma cópia da versão anterior do banco de dados SQLite.
 
-<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9a100def-a124-4d6d-9f0c-af8bc79265fe" />
+<img width="956" height="423" alt="image" src="https://github.com/user-attachments/assets/e0c210e0-bf9e-4805-ada6-2e922f6bdabd" />
+
 
 
 ### Identidade visual
@@ -178,7 +179,8 @@ Development of the application logic for data extraction, processing, duplicate 
 
 A feature located at the bottom of the interface, responsible for saving processed data and preserving a backup copy of the previous version of the SQLite database.
 
-<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9a100def-a124-4d6d-9f0c-af8bc79265fe" />
+<img width="956" height="423" alt="image" src="https://github.com/user-attachments/assets/3943d408-28a0-4476-9edb-946a5e839a7e" />
+
 
 ### Visual Identity
 
