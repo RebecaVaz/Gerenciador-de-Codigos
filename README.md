@@ -27,14 +27,20 @@ Para solucionar esse problema, desenvolvi uma aplicação capaz de automatizar a
 
 ## ⚙️ Funcionalidades
 
+O sistema funciona a partir da comparação entre versões de um catálogo. O usuário seleciona o arquivo PDF e o arrasta para a aplicação, que realiza automaticamente a leitura e a extração dos códigos. Em seguida, os dados identificados são comparados com as informações da versão anteriormente armazenada no banco de dados SQLite, permitindo acompanhar as alterações entre os catálogos.
+
+Para que essa comparação seja possível, é necessário armazenar os dados de cada atualização. Antes de atualizar os registros, o sistema cria automaticamente uma cópia de segurança do banco de dados anterior, preservando as informações da versão precedente.
+
+Com esse processo, a aplicação oferece as seguintes funcionalidades:
+
 - **Extração automatizada:** leitura de arquivos PDF e identificação de códigos por meio de expressões regulares (Regex).
-- **Detecção de duplicidades:** identificação de códigos repetidos e contabilização de suas ocorrências.
-- **Controle de numeração:** gerenciamento de códigos de 001 a 999, com retorno automático ao início da sequência.
-- **Identificação de códigos disponíveis:** geração automática de uma lista de códigos que não estão sendo utilizados no catálogo atual.
-- **Comparação de versões:** identificação de códigos que deixaram de constar no catálogo em relação à versão anteriormente armazenada, permitindo identificar novas possibilidades de reutilização.
-- **Armazenamento estruturado:** utilização do SQLite para persistência das informações processadas.
-- **Backup local automático:** preservação de uma cópia da versão anterior do banco de dados antes da atualização.
-- **Interface gráfica:** interação simplificada com suporte a arrastar e soltar arquivos PDF.
+- **Detecção de duplicidades:** identificação de códigos repetidos no catálogo e contabilização de suas ocorrências.
+- **Controle de numeração:** gerenciamento de códigos no intervalo de 001 a 999, com identificação do maior código utilizado e sugestão automática de uma numeração disponível.
+- **Identificação de códigos disponíveis:** geração de uma lista de códigos que não estão sendo utilizados no catálogo atual, indicando possibilidades de reutilização.
+- **Comparação entre versões:** análise dos códigos da atualização atual em relação aos dados anteriormente armazenados, identificando quais códigos deixaram de constar no catálogo.
+- **Armazenamento estruturado:** utilização do SQLite para persistência dos dados e consulta às informações de atualizações anteriores.
+- **Backup local automático:** criação de uma cópia de segurança do banco de dados anterior antes da atualização dos registros.
+- **Interface gráfica interativa:** utilização simplificada por meio de uma interface desenvolvida com Tkinter, com suporte a arrastar e soltar arquivos PDF.
 
 ## 🖥️ Demonstração da aplicação
 
@@ -135,16 +141,22 @@ To address this challenge, I developed an application capable of automating data
 - Compare the current catalog against previously stored records.
 - Preserve processed information through structured data storage and local backups.
 
-## ⚙️ Key Features
+## ⚙️ Features
 
-- **Automated data extraction:** PDF text processing and code identification using regular expressions (Regex).
-- **Duplicate detection:** identification of repeated codes and frequency counting.
-- **Numbering control:** management of identifiers ranging from 001 to 999, with automatic sequence rollover.
-- **Available code identification:** automatic generation of a list of identifiers not currently in use within the catalog.
-- **Version comparison:** detection of identifiers that are no longer present compared with the previously stored catalog, making newly available codes identifiable for potential reuse.
-- **Structured data persistence:** SQLite integration for storing processed information.
-- **Automatic local backup:** preservation of the previous database version before updating stored records.
-- **Graphical user interface:** streamlined interaction with drag-and-drop PDF support.
+The system operates by comparing different versions of a product catalog. The user simply selects a PDF file and drags it into the application, which automatically processes the document and extracts the product codes. The extracted data is then compared against the information previously stored in the SQLite database, making it possible to track changes between catalog versions.
+
+To enable this comparison, the system maintains a record of the data from each update. Before updating the database records, the application automatically creates a backup of the previous database, preserving the information from the preceding version.
+
+Through this process, the application provides the following features:
+
+- **Automated Data Extraction:** processes PDF files and identifies product codes using Regular Expressions (Regex).
+- **Duplicate Detection:** identifies duplicate codes within the catalog and counts their occurrences.
+- **Code Sequence Management:** manages codes within the 001–999 range, identifies the highest code currently in use, and automatically suggests an available code.
+- **Available Code Identification:** generates a list of codes not currently assigned in the catalog, highlighting potential opportunities for reuse.
+- **Version Comparison:** compares codes from the current catalog against previously stored data, identifying codes that are no longer present in the latest version.
+- **Structured Data Storage:** uses SQLite for data persistence and retrieval of information from previous catalog updates.
+- **Automatic Local Backup:** creates a backup of the previous database before updating its records.
+- **Interactive Graphical Interface:** provides a user-friendly interface built with Tkinter, featuring drag-and-drop support for PDF files.
 
 ## 🖥️ Application Showcase
 
