@@ -48,7 +48,8 @@ Com esse processo, a aplicação oferece as seguintes funcionalidades:
 
 Interface gráfica desenvolvida com Tkinter, projetada para facilitar a utilização e o processamento dos catálogos.
 
-![Tela inicial do programa](imagens/tela-inicial.png)
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9caab9d9-5c9e-4947-8047-fb03bbbdfdd3" />
+
 
 ### Implementação e código-fonte
 
@@ -83,28 +84,22 @@ Logo utilizada na interface da aplicação.
 
 ## 🚀 Instalação e execução
 
-**1. Clone o repositório:**
+**1. Acesse o diretório do projeto:**
 
 ```bash
-git clone URL_DO_REPOSITORIO
+cd Projeto Gerenciamento de Códigos
 ```
 
-**2. Acesse o diretório do projeto:**
-
-```bash
-cd Sistema-Analise-Catalogos-PDF
-```
-
-**3. Instale as dependências:**
+**2. Instale as dependências:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Execute a aplicação:**
+**3. Execute a aplicação:**
 
 ```bash
-python Sistema.py
+python Programa.py
 ```
 
 **Pré-requisitos:** Python instalado e ambiente com suporte ao Tkinter.
@@ -199,28 +194,22 @@ Logo incorporated into the application's graphical interface.
 
 ## 🚀 Installation and Execution
 
-**1. Clone the repository:**
+**1. Navigate to the project directory:**
 
 ```bash
-git clone REPOSITORY_URL
+cd Projeto Gerenciamento de Códigos
 ```
 
-**2. Navigate to the project directory:**
-
-```bash
-cd Sistema-Analise-Catalogos-PDF
-```
-
-**3. Install the required dependencies:**
+**2. Install the required dependencies:**
 
 ```bash
 pip install -r requirements.txt
 ```
 
-**4. Run the application:**
+**3. Run the application:**
 
 ```bash
-python Sistema.py
+python Programa.py
 ```
 
 **Prerequisites:** Python installation and an environment with Tkinter support.
