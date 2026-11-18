@@ -48,7 +48,6 @@ Com esse processo, a aplicação oferece as seguintes funcionalidades:
 
 Interface gráfica desenvolvida com Tkinter, projetada para facilitar a utilização e o processamento dos catálogos.
 
-Tela Inicial
 <img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/9caab9d9-5c9e-4947-8047-fb03bbbdfdd3" />
 
 
