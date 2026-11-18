@@ -57,6 +57,8 @@ Tela Inicial
 Desenvolvimento da lógica de extração, processamento, identificação de duplicidades e gerenciamento das informações utilizando Python.
 
 <img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/f8f8dabc-96ee-4187-82ab-dada373130bd" />
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/b55d3023-7ee4-49ad-8eae-4ba69740240e" />
+
 
 ### Gerenciamento e backup
 
@@ -170,6 +172,7 @@ A graphical user interface developed with Tkinter, designed to streamline usabil
 Development of the application logic for data extraction, processing, duplicate detection, and information management using Python.
 
 <img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/f8f8dabc-96ee-4187-82ab-dada373130bd" />
+<img width="360" height="800" alt="image" src="https://github.com/user-attachments/assets/2bc0b154-1086-4041-a2e8-ec538e7ff51c" />
 
 ### Data Management and Backup
 
