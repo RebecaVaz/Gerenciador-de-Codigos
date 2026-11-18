@@ -121,15 +121,16 @@ Este projeto proporcionou experiência prática no desenvolvimento de aplicaçõ
 Também reforçou a importância de compreender problemas reais e transformar necessidades operacionais em soluções tecnológicas eficientes.
 
 ---
+## 👩‍💻 Autora
 
-👩‍💻 Autora
-Rebeca Vaz
+Rebeca Vaz  
 Projeto desenvolvido entre Setembro de 2024 e Fevereiro de 2026, como parte da minha evolução prática em Python.
+
+---
 
 📄 Licença
 
 Este projeto está sob a licença MIT.
-
 ---
 
 # 🇺🇸 English
@@ -246,11 +247,14 @@ It also reinforced the importance of translating real-world business requirement
 
 ---
 
-👩‍💻 Author
+## 👩‍💻 Author
+
 Rebeca Vaz
 
 Project developed between September 2024 and February 2026 as part of my hands-on learning journey and practical development experience with Python.
 
-📄 License
+---
+
+📄 **License**
 
 This project is licensed under the MIT License.
